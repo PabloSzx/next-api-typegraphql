@@ -1,0 +1,56 @@
+{
+  "name": "next-api-typegraphql",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "nextjs",
+    "typegraphql"
+  ],
+  "homepage": "https://github.com/PabloSzx/next-api-typegraphql#readme",
+  "bugs": {
+    "url": "https://github.com/PabloSzx/next-api-typegraphql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSzx/next-api-typegraphql.git"
+  },
+  "license": "MIT",
+  "author": "PabloSz",
+  "main": "pages/index.tsx",
+  "scripts": {
+    "build": "next build",
+    "dev": "run-p dev-*",
+    "dev-graphql": "graphql-codegen --watch",
+    "dev-next": "next",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@graphql-codegen/cli": "^1.15.3",
+    "@graphql-codegen/typescript": "^1.15.3",
+    "@graphql-codegen/typescript-operations": "^1.15.3",
+    "@graphql-codegen/typescript-urql": "^1.15.3",
+    "apollo-server-micro": "^2.14.5",
+    "babel-plugin-graphql-tag": "^2.5.0",
+    "class-validator": "^0.12.2",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3",
+    "next": "^9.4.4",
+    "npm-run-all": "^4.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.0.0-rc.2",
+    "typescript": "^3.9.5",
+    "urql": "^1.9.8"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8",
+    "babel-plugin-transform-typescript-metadata": "^0.3.0"
+  }
+}

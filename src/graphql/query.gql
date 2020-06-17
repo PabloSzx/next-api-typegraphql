@@ -1,0 +1,11 @@
+query asd {
+  hello(a: { a: 121 }) {
+    a
+  }
+}
+
+query zxc {
+  hello(a: { a: 401 }) {
+    a
+  }
+}
